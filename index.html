@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A1 | Home</title>
+
+  <style>
+    :root { --border: #e5e5e5; --text: #1a1a1a; }
+    body { font-family: system-ui, Arial, sans-serif; color: var(--text); margin: 0; background: #fafafa; }
+    .wrap { max-width: 920px; margin: 0 auto; padding: 22px; }
+    header, footer { background: #fff; border: 1px solid var(--border); border-radius: 14px; padding: 18px; }
+    main { margin-top: 14px; }
+    .panel { background: #fff; border: 1px solid var(--border); border-radius: 14px; padding: 18px; margin: 14px 0; }
+    .bio-grid { display: flex; gap: 18px; flex-wrap: wrap; align-items: center; }
+    .bio-grid img { width: 220px; max-width: 100%; height: auto; border-radius: 12px; border: 1px solid var(--border); }
+    ul { margin: 10px 0 0 18px; }
+    a { color: #0b57d0; text-decoration: none; font-weight: 600; }
+    a:hover { text-decoration: underline; }
+    .small { font-size: 0.95rem; color: #555; }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Ariana Phillips</h1>
+      <p class="small">Assignment 1 | Index Page</p>
+    </header>
+
+    <main>
+      <!-- Short bio -->
+      <section class="panel">
+        <h2>About Me</h2>
+        <div class="bio-grid">
+          <img src="img/img1.jpg" alt="Photo of me (or a family photo)" />
+          <div>
+            <p>
+              Greetings! My name is Ariana Phillips.
+              I am an Honors junior Computer Science student from Charlotte, N.C.
+            </p>
+            <p>
+              In my free time, I enjoy journaling, taking meditative walks, and spending quality time with my loved ones. 
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Course list -->
+      <section class="panel">
+        <h2>My Courses This Semester</h2>
+        <ul>
+          <li>COMP 350 - Operating Systems</li>
+          <li>ECEN 375 - Computer Architecture and Organization</li>
+          <li>COMP 322 - Internet Systems</li>
+          <li>COMP 360 - Programming Languages</li>
+        </ul>
+      </section>
+
+      <!-- Link to second page -->
+      <section class="panel">
+        <h2>Next Page</h2>
+        <p>
+          <a href="introduction.html">Click here to view the Introduction page!</a>
+        </p>
+        <p class="small">Learn about my skills, abilities, education, and training.</p>
+      </section>
+    </main>
+
+    <footer>
+      <p class="small">© Ariana Nicole Phillips </p>
+    </footer>
+  </div>
+</body>
+</html>
