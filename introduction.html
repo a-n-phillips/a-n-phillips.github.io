@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A1 | Introduction</title>
+
+  <style>
+    :root { --border: #e5e5e5; --text: #1a1a1a; }
+    body { font-family: system-ui, Arial, sans-serif; color: var(--text); margin: 0; background: #f7f7fb; }
+    .wrap { max-width: 920px; margin: 0 auto; padding: 22px; }
+    header, footer { background: #fff; border: 1px solid var(--border); border-radius: 14px; padding: 18px; }
+    main { margin-top: 14px; }
+    .panel { background: #fff; border: 1px solid var(--border); border-radius: 14px; padding: 18px; margin: 14px 0; }
+    table { width: 100%; border-collapse: collapse; overflow: hidden; border-radius: 12px; }
+    th, td { border: 1px solid var(--border); padding: 12px; text-align: left; vertical-align: top; }
+    th { background: #f0f2ff; }
+    ul { margin: 8px 0 0 18px; }
+    .img-row { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 12px; }
+    .img-row img { width: 260px; max-width: 100%; height: auto; border-radius: 12px; border: 1px solid var(--border); }
+    a { color: #0b57d0; text-decoration: none; font-weight: 600; }
+    a:hover { text-decoration: underline; }
+    .small { font-size: 0.95rem; color: #555; }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Introduction Page</h1>
+      <p class="small">Assignment 1 | Introduction Page</p>
+    </header>
+
+    <main>
+      <!-- Required table -->
+      <section class="panel">
+        <h2>Skills and Background</h2>
+        <table>
+          <tr>
+            <th>Category</th>
+            <th>Info</th>
+          </tr>
+          <tr>
+            <td>Skills</td>
+            <td>
+              <ul>
+                <li>Event Coordination</li>
+                <li>Public Speaking</li>
+                <li>Volunteerism</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>Abilities</td>
+            <td>
+              <ul>
+                <li>Leadership</li>
+                <li>Adept Communication</li>
+                <li>Organization</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>Education</td>
+            <td>
+              <p><strong>School:</strong> North Carolina Agricultural and Technical State University</p>
+              <p><strong>Major:</strong> Computer Science</p>
+              <p><strong>Year:</strong> Junior (Class of 2027)</p>
+            </td>
+          </tr>
+          <tr>
+            <td>Training</td>
+            <td>
+              <ul>
+                <li>Google Tech Exchange Program for AI & Generative Learning</li>
+                <li>Road2Hire Peer Web Development Assistance</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </section>
+
+      <!-- Required images -->
+      <section class="panel">
+        <h2>Images</h2>
+        <div class="img-row">
+          <img src="img/img2.jpg" alt="Second image" />
+          <img src="img/img3.jpg" alt="Third image" />
+        </div>
+      </section>
+
+      <!-- Link back -->
+      <section class="panel">
+        <h2>Return</h2>
+        <p><a href="index.html">Back to the Index</a></p>
+      </section>
+    </main>
+
+    <footer>
+      <p class="small">© Ariana Nicole Phillips</p>
+    </footer>
+  </div>
+</body>
+</html>
